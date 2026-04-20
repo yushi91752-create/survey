@@ -158,11 +158,15 @@
       <div class="form-row">
         <div class="field">
           <label>施設名</label>
-          <input type="text" id="facility" placeholder="例：〇〇介護事業所" style="width:200px;">
+          <select id="facility" style="width:200px;">
+            <option value="">選択してください</option>
+            <option value="ぐるんとびー駒寄">ぐるんとびー駒寄</option>
+            <option value="ぐるんとびーホーム">ぐるんとびーホーム</option>
+          </select>
         </div>
         <div class="field">
-          <label>職員番号</label>
-          <input type="text" id="staff-id" placeholder="例：S001" style="width:120px;">
+          <label>名前</label>
+          <input type="text" id="staff-id" placeholder="例：山田 太郎" style="width:160px;">
         </div>
         <div class="field">
           <label>記入日</label>
@@ -187,17 +191,6 @@
             <label><input type="radio" name="age" value="50代"><span>50代</span></label>
             <label><input type="radio" name="age" value="60代"><span>60代</span></label>
             <label><input type="radio" name="age" value="70代〜"><span>70代〜</span></label>
-          </div>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="field">
-          <label>役職</label>
-          <div class="radio-group">
-            <label><input type="radio" name="role" value="経営層"><span>1：経営層</span></label>
-            <label><input type="radio" name="role" value="管理者・リーダー"><span>2：管理者・リーダー</span></label>
-            <label><input type="radio" name="role" value="一般職"><span>3：一般職</span></label>
-            <label><input type="radio" name="role" value="その他"><span>4：その他</span></label>
           </div>
         </div>
       </div>

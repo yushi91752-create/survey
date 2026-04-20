@@ -146,11 +146,15 @@
       <div class="form-row">
         <div class="field">
           <label>施設名</label>
-          <input type="text" id="facility" placeholder="例：〇〇介護事業所" style="width:200px;">
+          <select id="facility" style="width:200px;">
+            <option value="">選択してください</option>
+            <option value="ぐるんとびーホーム">ぐるんとびーホーム</option>
+            <option value="ぐるんとびー駒寄">ぐるんとびー駒寄</option>
+          </select>
         </div>
         <div class="field">
-          <label>利用者番号</label>
-          <input type="text" id="user-id" placeholder="例：U001" style="width:120px;">
+          <label>利用者名</label>
+          <input type="text" id="user-id" placeholder="例：山田 花子" style="width:160px;">
         </div>
         <div class="field">
           <label>記入日</label>
